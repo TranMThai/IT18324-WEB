@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    border-bottom: 1px solid grey;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.menu img{
+    width: 30px;
+}
+.menu{
+    margin-right: 66.234px;
+}
+.menu ul{
+    display: none;
+    border: 1px solid grey;
+    position: absolute;
+    background-color: white;
+}
+.menu:hover ul{
+    display: block;
+}
+.menu ul .menucon{
+    padding: 10px 50px 10px 50px;
+}
+.menu ul a{
+    font-size: larger;
+}
+.menu ul .menucon:hover{
+    background-color: #4A69BA;
+    color: white;
+}
+.menu hr{
+    margin: 0 auto;
+    background-color: #4A69BA;
+    border: 0;
+    height: 0.1px;
+}
+.logo h1{
+    color: #4A69BA;
+    font-size: 60px;
+    padding: 10px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right img{
+    width: 30px;
+    margin-left: 20px;
+}
+.right img:hover{
+    transform: scale(1.2);
+}
+.right a{
+    text-decoration: underline;
+    color: #616161;
+}
+.right a:hover{
+    color: #4A69BA;
+}
+nav{
+    border-bottom: 1px solid grey;
+}
+nav .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+nav a{
+    margin: 10px auto;
+    font-size: 30px;
+    font-weight: 500;
+}
+nav a:hover{
+    color: #4A69BA;
+    text-decoration: underline;
+}
+footer{
+    background-color: #EAEAEA;
+    height: 205px;
+}
+footer .container{
+    display: flex;
+    position: relative;
+}
+.thongtin h1, .thongtin h2, .thongtin p{
+    text-transform: uppercase;
+    color: #4A69BA;
+}
+.thongtin h1{
+    padding: 30px 0 10px 0;
+}
+.thongtin p{
+    padding: 10px 0 10px 0;
+    font-weight: 600;
+    line-height: 25px;
+}
+.lienhe h1, .lienhe h2{
+    text-transform: uppercase;
+    color: #4A69BA;
+}
+.lienhe{
+    padding: 30px 0 10px 150px;
+}
+.lienhe h2{
+    padding: 30px 0 0 45px;
+}
+#fb img{
+    width: 35px;
+    position: absolute;
+    top: 90px;
+}
+#email img{
+    width: 32px;
+    position: absolute;
+    top: 151px;
+}
+
+.lienhe h2 a{
+    color: #4A69BA;
+}
+.lienhe h2 a:hover{
+    color: #33519c;
+    text-decoration: 3px underline;
+}
+.news{
+    margin: 80px 0;
+    display: flex;
+}
+.news img{
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+}
+.news a{
+    font-size: 35px;
+    font-weight: 600;
+}
+.news a:hover{
+    color: #4A69BA;
+    text-decoration: underline;
+}
+.news p{
+    padding-top: 20px;
+    color: #616161;
+    font-size: 21px;
+    margin-right: 10px;
+}
+
+aside{
+    height: 20px;
+}
+.backtop{
+    position: fixed;
+    right: 14%;
+    bottom: 8%;
+    cursor: pointer;
+}
+.backtop img{
+    width: 50px;
+}
