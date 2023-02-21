@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+    font-family: sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: #272F54;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img{
+    width: 250px;
+}
+nav{
+    background-color: #CA7802;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+nav ul{
+    list-style: none;
+}
+nav li a{
+    text-decoration:none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+nav li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.search input{
+    height: 25px;
+    width: 230px;
+    border: 0.5 solid grey;
+    padding-inline: 5px;
+    font-size: 18px;
+}
+.search button{
+    margin-left: 20px;
+    width: 100px;
+    height: 25px;
+    background-color: #272F54;
+    border: 0.5px solid white;
+    color: white;
+    text-transform: uppercase;
+}
+.banner{
+    position: relative;
+}
+.banner .chu{
+    position: absolute;
+    left:35%;
+    bottom: 50%;
+    font-size: 30px;
+    color: white;
+}
+.chu h1, .chu h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px orangered;
+}
+.chu>p{
+    font-family:sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px green;
+}
+article h1{
+    text-transform: uppercase;
+    color: #272F54;
+    margin: 15px 0;
+    font-size: 28px;
+}
+.khung{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.news{
+    border: 1px solid grey;
+    padding-inline: 30px;
+}
+.news img{
+    width: 100%;
+    margin: 15px 0;
+}
+.news h2 a{
+    color: #AD4000;
+    text-decoration: none;
+}
+.news p{
+    padding: 15px 0 30px 0;
+}
+.clear{
+    clear: both;
+    height: 15px;
+}
+footer{
+    background-color: #272F54;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.news a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    background-color: #5568bc;
+    color: black;
+}

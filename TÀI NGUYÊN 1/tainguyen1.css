@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-weight: 400;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(baner.jpg);
+    height: 150px;
+    background-size: 100% 100%;
+}
+nav{
+    background-color:#B75797;
+    text-align: center;
+    margin-bottom: 10px;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav a{
+    color: #FAE8F4;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav li:hover{
+    background-color: #360A21;
+}
+
+aside{
+    background-color: #FAE8F4;
+    height: 800px;
+    width: 25%;
+    float: left;
+}
+aside h2{
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+aside input{
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px;
+        border: 1px solid gray;
+}
+aside button{
+    display: block;
+    margin: 15px auto;
+    background-color: #2A3030;
+    color: white;
+    padding: 2px 15px;
+    border-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+.khung{
+    margin: auto;
+    width: 85%;
+}
+article{
+    background-color: white;
+    height: 800px;
+    width: 74%;
+    float: right;
+}
+article h1{
+    text-align: center;
+    color: #B75797;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 0.5px solid #B75797;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+article .khung{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    width: 100%;
+
+}
+article .sanpham{
+    border: 1px solid gray;
+    text-align: center;
+}
+.sanpham img{
+ width: 40%;
+}
+.sanpham h3,p,del,button{
+    padding: 0;
+    margin: 20px 18px;
+    font-size: 20px;
+}
+.sanpham h3{
+    font-size: 21px;
+    font-weight: bold;
+}
+.sanpham p{
+    color: #B75797;
+    font-weight: bold;
+}
+.sanpham button{
+    padding: 5px 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #360A21;
+    font-size: 20px;
+    border-style: none;
+}
+footer{
+    clear: both;
+    width: 100%;
+    background-color: #360A21;
+    color: #FAE8F4;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-top: 15px solid white;
+}
+button:hover{
+    background-color: #B75797;
+}

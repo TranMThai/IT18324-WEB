@@ -1,0 +1,147 @@
+body{
+    background-color: #484848;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+header{
+    background-color: white;
+}
+header .logo{
+    padding: 5px;
+    text-align: center;
+}
+.logo img{
+    width: 240px;
+}
+nav{
+    background-color: #819E06;
+    display: flex;
+    padding-inline: 10px;
+    margin-bottom: 10px ;
+    
+}
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px 25px;
+}
+nav .menu a{
+    color: white;
+    text-decoration: none;
+}
+.search{
+    display: inline-block;
+    margin: auto 0 auto auto;
+}
+nav button a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+nav button{
+    background-color: black;
+    border: 0.1px solid white;
+    padding: 8px 30px;
+    margin-left: 15px;
+}
+nav input{
+    width: 250px;
+    height: 30px;
+    border: 0;
+    padding-inline: 5px;
+}
+aside{
+    background-color: #819E06;
+    width: 32%;
+    height: 1000px;
+    float: left;
+    padding-inline: 15px;
+}
+aside h2{
+    text-transform: uppercase ;
+    padding: 20px 0px;
+    font-weight: 300;
+}
+aside a{
+    display: block;
+    text-decoration: none;
+    padding-left: 25px;
+    background: url(clean-water-droplets-water-conservation-concept-on-world-water-day-png.png) no-repeat;
+    background-size: 15px;
+}
+aside ul{
+    list-style: none;
+}
+aside li{
+    padding: 10px 15px;
+}
+aside a, aside h2{
+    color: white;
+}
+
+article{
+    width: 67%;
+    height: 1000px;
+    background-color: white;
+    float: right;
+}
+.news{
+    border-bottom: 1px solid #819E06;
+    padding-bottom: 110px;
+    width: 99%;
+}
+article img{
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.news h2 a{
+    color: #647B06;
+    text-decoration: none;
+}
+.news h2{
+    padding: 15px 0;
+}
+.news h2,p{
+    margin: 0 20px;
+}
+.clear{
+    clear: both;
+    height: 10px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #819E06;
+    color: white;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+aside a:hover{
+    text-decoration: underline;
+}
+.menu li:hover{
+    background-color: #647B06;
+}
+h2 a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    background-color: #484848;
+}
+
